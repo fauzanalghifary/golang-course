@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// Interface
+
 type HasName interface {
 	GetName() string
 }
@@ -17,6 +19,8 @@ type Person struct {
 func (person Person) GetName() string {
 	return person.Name
 }
+
+//
 
 type Animal struct {
 	Name string
